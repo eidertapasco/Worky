@@ -60,12 +60,6 @@ button{
     font-weight: 500;
 }
 
-button:hover{
-    background-color: #BD3B2A;
-    background-color: #9B23F7;
-    font-weight: 400;
-}
-
 button:active{
     background-color: white;
     color: #131255;
