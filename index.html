@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Worky</title>
+    <link rel="icon" href="assets/logo-Worky.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tablet.css" media="screen and (max-width: 768px)">
+    <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 480px)">
 </head>
 <body>
     <main>
-        <p class="creator"><span class="icon">🧩</span><i> Worky</i></p>
-        <form id="task-form">
+        <p class="creator"><img src="assets/logo-Worky.png" alt="Logo-Worky" class="logo-worky"><i>Worky</i></p>
+        <form class="main__form" id="task-form">
             <input type="text" id="task" placeholder="Nombre de la tarea" required>
             <select name="level-task" id="level-task" required>
                 <option value="" disabled selected>Importancia</option>
@@ -17,9 +20,9 @@
                 <option value="Media">Media</option>
                 <option value="Baja">Baja</option>
             </select>
-            <button type="submit">Agregar Tarea</button>
+            <button type="submit"><strong>Agregar Tarea</strong></button>
         </form>
-        <section id="task-list" class="task-list-styles">Lista de tareas 🟢En proceso 🟠Detenida 🔵Terminada</section>
+        <section id="task-list" class="task-list-styles">Lista de tareas 🟢En proceso 🟠Detenida 🟣Terminada</section>
     </main>
     <script src="script.js"></script>
 </body>

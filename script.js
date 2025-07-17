@@ -30,7 +30,7 @@ form.addEventListener("submit", function(event){
     const colors = {
         proceso: "#06FA54",
         detenida: "#FAB103",
-        terminada: "#1275FA"
+        terminada: "#9624BC"
     };
 
     const editBtn = document.createElement("button");

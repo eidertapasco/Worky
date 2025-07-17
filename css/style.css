@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'pacifico-regular';
+  src: url("/fonts/pacifico-regular.ttf") format('truetype');
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -18,8 +23,10 @@ body{
 main{
     max-width: 800px;
     margin: 0 auto; /*centrarlo automaticamente*/
-    background-color: #753EE6;
-    border: 1px solid #131255;
+    /* background-color: #0F4571; */
+    background-color: #1c598b;
+    box-shadow: 3px 2px 10px 2px black;
+    border: 2px solid #131255;
     border-radius: 10px;
     padding: 30px;
 }
@@ -38,6 +45,7 @@ button{
     font-size: 1.6rem;
     border-radius: 5px;
     border-color: #131255;
+    
 }
 
 input, select{
@@ -45,8 +53,21 @@ input, select{
 }
 
 button{
-    background-color: #92E63E;
+    /* background-color: #308db1; */
+    background-color: #1a97c8;
     border-radius: 10px;
+    color: #f0f2f5;
+    font-weight: 500;
+}
+
+button:hover{
+    background-color: #BD3B2A;
+    background-color: #9B23F7;
+    font-weight: 400;
+}
+
+button:active{
+    background-color: white;
     color: #131255;
 }
 
@@ -122,12 +143,12 @@ button{
     justify-content: center;
     color: white;
     font-size: 2.5rem;
-    font-weight: bold;
-    font-family: Verdana, sans-serif;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif, 'pacific-regular';
     margin-bottom: 15px;
 }
-.icon{
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 15px;
+
+.logo-worky{
+    width: 2.5rem;
+    height: 2.5rem;
 }

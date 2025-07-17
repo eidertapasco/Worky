@@ -1,0 +1,19 @@
+@media (max-width: 480px){
+    .main__form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    button:active{
+        background-color: white;
+        color: #131255;
+    }
+
+    .task-list-styles{
+        display: block;
+    }
+
+    .task-list-styles div > span{
+        margin-bottom: 15px;
+    }
+}
